@@ -1,6 +1,8 @@
 @extends('layouts.base')
 @section('container')
     Index Proyek
+    Copyright (c) 2023 Alfi Syifana Ghozwy
+    Yang copas dijamin palsu pak
     <table id='proyekTable' class="display">
         <thead>
             <tr>

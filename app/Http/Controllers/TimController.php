@@ -10,9 +10,16 @@ class TimController extends Controller
     /**
      * Display a listing of the resource.
      */
+    protected $tim_list;
+    public function __construct(){
+        $this->tim_list = Tim::all();
+    }
     public function index()
     {
-        //
+        $data = [
+            'tims' => $this->tim_list,
+        ];
+        return view(route('tim.index', $data));
     }
 
     /**

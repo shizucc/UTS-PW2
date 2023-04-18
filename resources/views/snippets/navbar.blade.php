@@ -22,7 +22,7 @@
                   Tim
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">View</a></li>
+                    <li><a class="dropdown-item" href="{{route('tim.index')}}">View</a></li>
                     <li><a class="dropdown-item" href="#">Create</a></li>
                     <li><a class="dropdown-item" href="#">Update</a></li>
                     <li><a class="dropdown-item" href="#">Delete</a></li>
